@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/PlakarKorp/kloset-contracts/resources"
+	"github.com/PlakarKorp/go-kloset-contracts/resources"
 	"golang.org/x/mod/semver"
 )
 

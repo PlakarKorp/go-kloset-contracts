@@ -21,7 +21,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/PlakarKorp/kloset-contracts/objects"
+	"github.com/PlakarKorp/go-kloset-contracts/objects"
 )
 
 type ScanResult struct {

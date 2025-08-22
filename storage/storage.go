@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/PlakarKorp/kloset-contracts/objects"
+	"github.com/PlakarKorp/go-kloset-contracts/objects"
 )
 
 type Mode uint32

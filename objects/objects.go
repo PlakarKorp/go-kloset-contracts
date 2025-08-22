@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/PlakarKorp/kloset-contracts/versioning"
+	"github.com/PlakarKorp/go-kloset-contracts/versioning"
 	"github.com/vmihailenco/msgpack/v5"
 )
 

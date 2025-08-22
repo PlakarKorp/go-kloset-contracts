@@ -1,4 +1,4 @@
-module github.com/PlakarKorp/kloset-contracts
+module github.com/PlakarKorp/go-kloset-contracts
 
 go 1.24.0
 
