@@ -1,6 +1,6 @@
 module github.com/PlakarKorp/go-kloset-contracts
 
-go 1.24.0
+go 1.23.4
 
 require (
 	github.com/dustin/go-humanize v1.0.1
