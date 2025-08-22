@@ -8,8 +8,6 @@ import (
 	"sort"
 	"strings"
 	"time"
-
-	"github.com/dustin/go-humanize"
 )
 
 type FileInfo struct {
@@ -101,10 +99,6 @@ func NewFileInfo(name string, size int64, mode os.FileMode, modTime time.Time, d
 		Lgid:     gid,
 		Lnlink:   nlink,
 	}
-}
-
-func (fileinfo *FileInfo) HumanSize() string {
-	return humanize.IBytes(uint64(fileinfo.Size()))
 }
 
 func (fileinfo *FileInfo) Equal(fi *FileInfo) bool {
